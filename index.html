@@ -1,0 +1,347 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Helvetica Neue' rel='stylesheet'>
+    <style>
+        body {
+            font-family: "Helvetica Neue", serif;
+        }
+    </style>
+    <script src="https://kit.fontawesome.com/6630dd9732.js" crossorigin="anonymous"></script>
+    <script src="script.js" defer></script>
+    <title>Radhika Rukmangadhan</title>
+
+</head>
+
+<body>
+    <!-- Introduction Section -->
+    <section id="introduction" class="hero is-halfheight is-bold is-info">
+        <div class="hero-body">
+            <div class="container">
+                <div class="columns is-vcentered">
+                    <div class="column is-three-quarters">
+                        <h1 class="title is-size-1">Radhika Rukmangadhan</h1>
+                        <p class="subtitle is-size-4">Data journalist and reporter based in New York City. </p>
+                        <p class="subtitle is-size-4">Welcome to my portfolio!</p>
+                        <p class="subtitle is-size-5">I'm a journalist and I love to write, analyze and visualize data,
+                            and produce compelling data stories from start to finish. </p>
+                        <p class="subtitle is-size-5"> My extensive background in business and economic reporting, and
+                            engineering helps me merge rigorous data-driven reporting with eye-catching visuals. </p>
+                        <p class="subtitle is-size-5">I am currently pursuing a master’s in data journalism at Columbia
+                            Journalism School to hone my coding skills and write with data. Previously, I worked as an
+                            editor at Moody’s, a credit ratings agency, and as a business correspondent at Reuters, a
+                            wire news service.
+                        </p>
+                        <div class="buttons">
+                            <button class="button is-info is-light" id="scrollButton1" style="margin-right: 20px;"> Data
+                                stories</button>
+                            <button class="button is-info is-light" id="scrollButton2">Business reporting</button>
+                        </div>
+
+                    </div>
+                    <!--Headshot-->
+                    <div class="column is-one-fifth">
+                        <figure class="image is-256x256">
+                            <img src="Radhika.jpg" alt="Picture of Radhika Rukmangadhan">
+                        </figure>
+                        <!--Links to socials-->
+                        <div style="text-align: center;">
+                            <p class="lead" style="font-size: 2.25rem;">
+                                <span style="color:rgb(16, 16, 231);font-weight:bold;">
+                                    <a href="https://github.com/radhika3558" style="color:inherit;text-decoration:none;"
+                                        target="_blank">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                </span>
+                                <span style="color:rgb(16, 16, 231);font-weight:bold;">
+                                    <a href="https://www.linkedin.com/in/radhikarukmangadhan/"
+                                        style="color:inherit;text-decoration:none;" target="_blank">
+                                        <i class="fab fa-linkedin"></i>
+                                    </a>
+                                </span>
+                                <span style="color:rgb(16, 16, 231);font-weight:bold;">
+                                    <a href="mailto:radhika.rukmangadhan[at]gmail.com"
+                                        style="color:inherit;text-decoration:none;">
+                                        <i class="fa-solid fa-envelope"></i>
+                                    </a>
+                                </span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Data Stories Section -->
+    <section id="dataportfolio" class="section">
+        <div id="targetElement1" class="container">
+            <h1 class="title is-size-2" style="color:rgb(16, 106, 231);font-weight:bold;">Data stories</h1>
+            <p>
+                Highlighted below are a selection of my data-centric projects. I used <strong>python/pandas </strong>
+                for data analysis, <strong>BeautifulSoup</strong> for web scraping,
+                <strong>Datawrapper</strong> for visual representation, <strong> Regex </strong> for pattern searching,
+                and <strong>APIs </strong>for data
+                integration. Additionally, I employed <strong> Playwright</strong> for automated browser testing.
+            </p>
+            <br>
+            <!--Tabs-->
+            <div class="tabs is-boxed is-centered">
+                <ul>
+                    <li class="is-active">
+                        <a data-target="all">
+                            <span class="icon is-small"><i class="fa-solid fa-code"></i></span>
+                            <span>All</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a data-target="charts">
+                            <span class="icon is-small"><i class="fa-solid fa-chart-line"></i></span>
+                            <span>Charts</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a data-target="maps">
+                            <span class="icon is-small"><i class="fa-solid fa-map-location-dot"></i></span>
+                            <span>Maps</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a data-target="scrapers">
+                            <span class="icon is-small"><i class="fa-solid fa-robot"></i></span>
+                            <span>Scrapers</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <br>
+        <div class="columns is-multiline content">
+            <!-- Data story 1 -->
+            <div class="column is-half" class="content-block" data-category="all maps scrapers">
+                <!-- Add content here -->
+                <div class="block">
+                    <h3>US unemployment claims</h3>
+                    <iframe title="US Unemployment Claims" aria-label="Interactive map"
+                        src="https://datawrapper.dwcdn.net/unjjc/4/" scrolling="yes" frameborder="0"
+                        style="width:100%; border: none;" height="400" data-external="1"></iframe>
+                    <div class="tags">
+                        <span class="tag is-rounded is-info is-light">Maps</span>
+                        <span class="tag is-rounded is-info is-light">Scrapers</span>
+                    </div>
+                </div>
+                <!-- Description and links-->
+                <div class="block">
+                    <p><strong>Context:</strong> Unemployment data is an important indicator of the state of the
+                        economy.
+                    </p>
+                    <a target="_blank" href="https://radhika3558.github.io/Unemployment-Claims-Scraper/" button
+                        class="button is-info is-outlined">Read more</a>
+                    <a target="_blank" href="https://github.com/radhika3558/Unemployment-Claims-Scraper" button
+                        class="button is-info">See code</a>
+                </div>
+            </div>
+            <!-- Data story 2 -->
+            <div class="column is-half" class="content-block" data-category="all maps scrapers">
+                <!-- Add content for Item 2 here -->
+                <div class="block">
+                    <h3>BBC Directors</h3>
+                    <iframe title="Mapbox project" aria-label="Interactive map"
+                        src="https://radhika3558.github.io/Databases-Mapbox-Project/" scrolling="no" frameborder="0"
+                        style="width:100%; border: none;" height="400" data-external="1"></iframe>
+                    <div class="tags">
+                        <span class="tag is-rounded is-info is-light">Maps</span>
+                        <span class="tag is-rounded is-info is-light">Scrapers</span>
+                    </div>
+                </div>
+                <!-- Description and links-->
+                <div class="block">
+                    <p><strong>Context:</strong> BBC directors
+                    </p>
+                    <a target="_blank" href="https://radhika3558.github.io/Databases-Mapbox-Project/" button
+                        class="button is-info is-outlined">Read more</a>
+                    <a target="_blank" href="https://github.com/radhika3558/Databases-Mapbox-Project" button
+                        class="button is-info">See code</a>
+                </div>
+            </div>
+            <!-- Day story 3 -->
+            <div class="column is-half" class="content-block" data-category="all maps charts">
+                <!-- Title and Image -->
+                <div class="block">
+                    <h3>Subway accessibility</h3>
+                    <iframe title="Judicial Nominees Map" aria-label="DataViz" src="elevatorstatus.png" scrolling="no"
+                        frameborder="0" style="width:100%; border: none;" height="400"></iframe>
+                    <div class="tags">
+                        <span class="tag is-rounded is-success is-light">Chart</span>
+                        <span class="tag is-rounded is-success is-light">Map</span>
+                    </div>
+                </div>
+                <!-- Description and links-->
+                <div class="block">
+                    <p><strong>Context:</strong>Blurb here.
+                    </p>
+                    <a target="_blank"
+                        href="https://medium.com/@radhika.rukmangadhan/the-subway-systems-few-elevators-are-mostly-in-midtown-manhattan-stations-but-there-is-no-ca1756c7d95d"
+                        button class="button is-info is-outlined">Read more</a>
+                </div>
+            </div>
+            <!-- portfolio section closing tags -->
+        </div>
+        </span>
+        </div>
+    </section>
+    <!-- Reporting -->
+    <section id="reporting" class="section">
+        <div id="targetElement2" class="container">
+            <h1 class="title is-size-2" style="color:rgb(16, 106, 231);font-weight:bold;">Business reporting</h1>
+            <p>
+                Featured below is some of my business reporting. I have written spot news, feature-length and long form stories.
+                I have interviewed industry leaders, company CEOs and sector experts to deliver in-depth, stories about US and UK companies and the economy. 
+            </p>
+            <br>
+            <div class="columns is-multiline content">
+                <!-- Reporting story 1 -->
+                <div class="column is-one-third">
+                    <!-- Add content here -->
+                    <div class="block">
+                        <h3>Britvic cuts 240 jobs in Norwich closure, Unilever could follow</h3>
+                        <iframe title="Britvic cuts 240 jobs in Norwich closure, Unilever could follow"
+                            aria-label="image" src="britvic.jpeg" scrolling="no" frameborder="0"
+                            style="width:100%; border: none;" height="400" data-external="1"></iframe>
+                    </div>
+                    <!-- Description and links-->
+                    <div class="block">
+                        <p><strong>Reuters:</strong> Britain's Britvic Plc announced the closure of its Norwich factory
+                            ...
+                        </p>
+                        <a target="_blank" href="Britvic cuts 240 jobs in Norwich closure, Unilever could follow" button
+                            class="button is-info is-outlined">Read more</a>
+                    </div>
+                </div>
+                <!-- Reporting story 2 -->
+                <div class="column is-one-third">
+                    <!-- Add content for Item 2 here -->
+                    <div class="block">
+                        <h3>Crest Nicholson warns of housing Brexit effect, London weakness</h3>
+                        <iframe title="Crest Nicholson" aria-label="image" src="Crest Nicholson.jpeg" scrolling="no"
+                            frameborder="0" style="width:100%; border: none;" height="400" data-external="1"></iframe>
+                    </div>
+                    <!-- Description and links-->
+                    <div class="block">
+                        <p><strong>Reuters:</strong> UK housebuilder Crest Nicholson Holdings Plc pointed to
+                            Brexit-related barriers to new house ...
+                        </p>
+                        <a target="_blank" href="https://www.reuters.com/article/uk-crest-hold-outlook-idUKKBN1DF0VR/"
+                            button class="button is-info is-outlined">Read more</a>
+                    </div>
+                </div>
+                <!-- Reporting story 3 -->
+                <div class="column is-one-third">
+                    <!-- Title and Image -->
+                    <div class="block">
+                        <h3>UK fashion chain French Connection says close to turning business around</h3>
+                        <iframe title="French Connection" aria-label="image" src="FrenchConnection.jpeg" scrolling="no"
+                            frameborder="0" style="width:100%; border: none;" height="400"></iframe>
+                    </div>
+                    <!-- Description and links-->
+                    <div class="block">
+                        <p><strong>Reuters:</strong> British fashion chain French Connection Group Plc said it was close
+                            to returning to profit and disclosed it ...
+                        </p>
+                        <a target="_blank"
+                            href="https://www.reuters.com/article/us-french-connectn-results-idUSKCN1GP0QD/" button
+                            class="button is-info is-outlined">Read more</a>
+                    </div>
+                </div>
+                <!-- Reporting story 4 -->
+                <div class="column is-one-third">
+                    <!-- Title and Image -->
+                    <div class="block">
+                        <h3>Lockheed to offer T-50A in race for Air Force contract</h3>
+                        <iframe title="Lockheed" aria-label="image" src="Lockheed.jpeg" scrolling="no"
+                            frameborder="0" style="width:100%; border: none;" height="400"></iframe>
+                    </div>
+                    <!-- Description and links-->
+                    <div class="block">
+                        <p><strong>Reuters:</strong> Lockheed Martin Corp said it would offer a modified version of its T-50 training jet developed jointly ...
+                        </p>
+                        <a target="_blank"
+                            href="https://www.reuters.com/article/us-lockheed-trainer-idUSKCN0VK1PI/" button
+                            class="button is-info is-outlined">Read more</a>
+                    </div>
+                </div>
+                <!-- Reporting story 5 -->
+                <div class="column is-one-third">
+                    <!-- Title and Image -->
+                    <div class="block">
+                        <h3>Textron profit beats on steady demand for business jets</h3>
+                        <iframe title="Textron" aria-label="image" src="Textron.jpeg" scrolling="no"
+                            frameborder="0" style="width:100%; border: none;" height="400"></iframe>
+                    </div>
+                    <!-- Description and links-->
+                    <div class="block">
+                        <p><strong>Reuters:</strong>  Textron Inc , the maker of Beechcraft and Cessna aircraft and Bell helicopters, reported a better-than-expected quarterly profit ...
+                        </p>
+                        <a target="_blank"
+                            href="https://www.reuters.com/article/us-textron-results-idUSKCN0XH12S/" button
+                            class="button is-info is-outlined">Read more</a>
+                    </div>
+                </div>
+                <!-- Reporting story 6 -->
+                <div class="column is-one-third">
+                    <!-- Title and Image -->
+                    <div class="block">
+                        <h3>Hyatt Hotels attacked with payment-card stealing malware</h3>
+                        <iframe title="Hyatt" aria-label="image" src="Hyatt.jpeg" scrolling="no"
+                            frameborder="0" style="width:100%; border: none;" height="400"></iframe>
+                    </div>
+                    <!-- Description and links-->
+                    <div class="block">
+                        <p><strong>Reuters:</strong> Hyatt Hotels Corp said its payment processing system was infected with credit-card-stealing malware in an attack ...
+                        </p>
+                        <a target="_blank"
+                            href="https://www.reuters.com/article/us-hyatt-hotels-hacking-idUSKBN0U704320151225/" button
+                            class="button is-info is-outlined">Read more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <br>
+        </div>
+    </section>
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="content has-text-centered">
+            <p>I made this website using <strong><a href="https://bulma.io/"
+                        style="color:rgb(16, 106, 231);font-weight:bold;">Bulma</a></strong>, a <strong>CSS</strong>
+                framework.</p>
+            <p class="lead" style="font-size: 1.25rem;">
+                <span style="color:rgb(16, 106, 231);font-weight:bold;">
+                    <a class="button" href="https://github.com/radhika3558" style="color:inherit;text-decoration:none;">
+                        <i class="fab fa-github"></i>
+                        GitHub
+                    </a>
+                </span>
+                <span style="color:rgb(16, 106, 231);font-weight:bold;">
+                    <a class="button" href="https://www.linkedin.com/in/radhikarukmangadhan/"
+                        style="color:inherit;text-decoration:none;"> <i class="fab fa-linkedin"></i>
+                        LinkedIn
+                    </a>
+                </span>
+                <span style="color:rgb(16, 106, 231);font-weight:bold;">
+                    <a class="button" href="mailto:radhika.rukmangadhan[at]gmail.com"
+                        style="color:inherit;text-decoration:none;"> <i class="fa-solid fa-envelope"></i>
+                        Email
+                    </a>
+                </span>
+            </p>
+            <p>© 2024 - Radhika Rukmangadhan</p>
+        </div>
+    </footer>
+</body>
+
+</html>
